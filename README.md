@@ -1,7 +1,7 @@
 # OpenSEES-BoucWenGG
 Implementation in OpenSEES of the Bouc-Wen model modified by Gerolymos and Gazetas
 
-Reference: Gerolymos N. and Gazetas G. Constitutive model for 1-D cyclic soil behaviour applied to seismic analysis of layered deposits. Soils and Foudations, 45-147 (2005).
+Reference: Gerolymos N. and Gazetas G. **Constitutive model for 1-D cyclic soil behaviour applied to seismic analysis of layered deposits**. _Soils and Foudations_, 45-147 (2005).
 
 
 ## Usage (TLC):
