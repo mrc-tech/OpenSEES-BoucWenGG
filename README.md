@@ -5,6 +5,7 @@ Reference: Gerolymos N. and Gazetas G. **Constitutive model for 1-D cyclic soil 
 
 
 ## Usage (TLC):
+Include `BoucWenGG.dll` file inside the same folder of the TCL model file to use the material. The material can be defined by the TCL command:
 ```tcl
 uniaxialMaterial BoucWenGG $matTag $alpha $k0 $strainY $n $gamma $beta $s1 $s2 $mkur
 ```
