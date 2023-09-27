@@ -5,4 +5,8 @@ Reference: Gerolymos N. and Gazetas G. **Constitutive model for 1-D cyclic soil 
 
 
 ## Usage (TLC):
-![immagine](https://user-images.githubusercontent.com/74192712/177916548-8ff1e3f7-ed10-4111-b86b-78c0ff689e53.png)
+```tcl
+uniaxialMaterial BoucWenGG $matTag $alpha $k0 $strainY $n $gamma $beta $s1 $s2 $mkur
+```
+| `matTag` | integer tag identifying the material |
+| `alpha` | the |
