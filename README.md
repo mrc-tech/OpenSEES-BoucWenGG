@@ -20,4 +20,4 @@ uniaxialMaterial BoucWenGG $matTag $alpha $k0 $strainY $n $gamma $beta $s1 $s2 $
 | `n` | parameter that controls the transition between the initial and post-yielding branch. As $n$ increases the transition becomes sharper (when $n\to\infty$ the model is piece-wise linear). |
 | `gamma`, `beta` | parameters that control the shape of the hysteresis loop |
 | `s1`, `s2` | control the stiffness degradation upon reversal |
-| `mkur` | account for stress and tangent stiffness modification proposed by Drosos et al. (2012). `mkur`==1 modification is aplied, `mkur`==0 modification is not applied |
+| `mkur` | account for stress and tangent stiffness modification proposed by Drosos et al. (2012). `mkur`=1 modification is aplied, `mkur`=0 modification is not applied |
