@@ -1,5 +1,7 @@
 # OpenSEES-BoucWenGG
-Implementation in OpenSEES of the Bouc-Wen model modified by Gerolymos and Gazetas
+Implementation in OpenSEES of the Bouc-Wen model modified by Gerolymos and Gazetas (2005).
+
+Author: _Andrea Marchi_ (andrea.marchi@uniroma1.it)
 
 Reference: Gerolymos N. and Gazetas G. **Constitutive model for 1-D cyclic soil behaviour applied to seismic analysis of layered deposits**. _Soils and Foudations_, 45-147 (2005).
 
