@@ -5,7 +5,7 @@ Author: _Andrea Marchi_ (andrea.marchi@uniroma1.it)
 
 References:
 - Gerolymos N. and Gazetas G. **Constitutive model for 1-D cyclic soil behaviour applied to seismic analysis of layered deposits**. _Soils and Foudations_, 45-147 (2005).
-- Marchi A. **Improved Bouc-Wen model implementation in OpenSees**. _2nd Eurasian Conference on OpenSees (OpenSees Days)_, Turin (2022).
+- Marchi A. **Improved Bouc-Wen model implementation in OpenSees**. _Proceedings of the 2022 Eurasian OpenSees Days. EOS 2022. Lecture Notes in Civil Engineering_, vol 326, 31-38. Springer, Cham. https://doi.org/10.1007/978-3-031-30125-4_3
 
 
 ## Usage (TLC):
