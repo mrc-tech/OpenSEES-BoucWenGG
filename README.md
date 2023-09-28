@@ -3,7 +3,9 @@ Implementation in OpenSEES of the Bouc-Wen model modified by Gerolymos and Gazet
 
 Author: _Andrea Marchi_ (andrea.marchi@uniroma1.it)
 
-Reference: Gerolymos N. and Gazetas G. **Constitutive model for 1-D cyclic soil behaviour applied to seismic analysis of layered deposits**. _Soils and Foudations_, 45-147 (2005).
+References:
+- Gerolymos N. and Gazetas G. **Constitutive model for 1-D cyclic soil behaviour applied to seismic analysis of layered deposits**. _Soils and Foudations_, 45-147 (2005).
+- Marchi A. **Improved Bouc-Wen model implementation in OpenSees**. _2nd Eurasian Conference on OpenSees (OpenSees Days)_, Turin (2022).
 
 
 ## Usage (TLC):
@@ -21,3 +23,11 @@ uniaxialMaterial BoucWenGG $matTag $alpha $k0 $strainY $n $gamma $beta $s1 $s2 $
 | `gamma`, `beta` | parameters that control the shape of the hysteresis loop |
 | `s1`, `s2` | control the stiffness degradation upon reversal |
 | `mkur` | account for stress and tangent stiffness modification proposed by Drosos et al. (2012). `mkur`=1 modification is aplied, `mkur`=0 modification is not applied |
+
+## Main behaviour
+$F(u(t)) = \alpha \ k_0 \ u(t) + (1-\alpha) \ k_0 \ u_y \ \zeta(t)$
+
+$\dot{\zeta}(t) = \frac{\dot{u}(t)}{u_y} [(\gamma+\beta) - |\zeta(t)|^n \ (\gamma + \beta \ sgn(\dot{u}(t) \ \zeta(t))) ] $
+
+
+![immagine](https://github.com/mrc-tech/OpenSEES-BoucWenGG/assets/74192712/d8e4b931-d50b-4702-9d57-95e391955b59)
